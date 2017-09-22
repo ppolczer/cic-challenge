@@ -1,0 +1,7 @@
+.gradle
+.idea
+build/
+cic-challenge.iml
+cic-challenge.ipr
+cic-challenge.iws
+out/
