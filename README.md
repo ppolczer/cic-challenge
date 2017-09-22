@@ -23,11 +23,11 @@ http://host:port/emissions?department=311%20Customer%20Service%20Center
 
 The response is represented as an array of JSON objects. A response object contains the following fields:
 
-#####"department" (String):
+##### "department" (String):
 City and County of San Francisco department name
 
-#####"sourceType" (String):
+##### "sourceType" (String):
 Fuel type such as biodiesel, building propane, compressed natural gas (CNG), gasoline, diesel, and propane (vehicle); facility energy type such as electricity, natural gas and steam; and wastewater emission type such as wastewater combustion, wastewater effluent, and wastewater process.
 
-#####"emissions" (double):
+##### "emissions" (double):
 Total GHG emissions accounted for in metric tons of carbon dioxide equivalents (mtCO2e)
