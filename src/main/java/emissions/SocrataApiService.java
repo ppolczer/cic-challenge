@@ -23,10 +23,18 @@ public class SocrataApiService {
     private static final String APP_TOKEN = "";
     private static final String BASE_URL = "https://data.sfgov.org/resource/y2ju-xyjc.json";
 
+    /**
+     * @return A list of {@link SocrataApiResponse}s. An empty list if no data is found.
+     */
     public List<SocrataApiResponse> getEmissionData(){
         return this.getEmissionData(null);
     }
 
+    /**
+     *
+     * @param departmentFilter If present, only data for the specified department will be returned.
+     * @return A list of {@link SocrataApiResponse}s. An empty list if no data is found.
+     */
     public List<SocrataApiResponse> getEmissionData(String departmentFilter){
 
         try {
