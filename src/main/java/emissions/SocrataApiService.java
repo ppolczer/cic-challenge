@@ -11,6 +11,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ *
+ * This service queries the Socrata Open Data API (SODA) for information about CO2 emissions of public buildings in
+ * San Francisco. See https://dev.socrata.com/foundry/data.sfgov.org/y2ju-xyjc for details.
+ *
  * Created by pp on 22.09.17.
  */
 public class SocrataApiService {
